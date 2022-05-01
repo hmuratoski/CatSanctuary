@@ -1,7 +1,7 @@
 $color: black;
 $border:5px solid;
-$border-radius: 10px;
-@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+$border-radius: 5px;
+$font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 
 
@@ -9,15 +9,16 @@ $border-radius: 10px;
   color: $color;
   border: $border;
   border-radius: $border-radius;
- 
 }
 footer {
-    background: #f6f8f9;
+    background: #ffffff;
     font-size: 10px bold;
     margin-top: 10px;
+    font-family: $font-family;
   }
   footer a {
     color:$color;
+    font-family: $font-family;
     font-size: 20px;
     padding: 10px;
     border-right: 1px solid #fffffe;
@@ -29,4 +30,8 @@ footer {
   footer a:hover {
     color: rgb(255, 255, 255);
   }
+//  NAV BAR
 
+.container-fluid{
+  font-family: $font-family;
+}

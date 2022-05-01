@@ -1,18 +1,19 @@
-@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 .img-fluid {
   color: black;
   border: 5px solid;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 footer {
-  background: #f6f8f9;
+  background: #ffffff;
   font-size: 10px bold;
   margin-top: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 footer a {
   color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
   padding: 10px;
   border-right: 1px solid #fffffe;
@@ -25,4 +26,8 @@ footer a:first-child {
 
 footer a:hover {
   color: rgb(255, 255, 255);
+}
+
+.container-fluid {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }/*# sourceMappingURL=cat.css.map */
