@@ -2,6 +2,9 @@ $border:5px solid;
 $color: black;
 $border-radius: 10px;
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+
 .img-fluid{
     border: $border;
     color: $color;
@@ -11,8 +14,6 @@ footer {
     background: #f6f8f9;
     font-size: 10px bold;
     margin-top: 10px;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    text-align: center;
-
   }
   footer a {
     color:$color;

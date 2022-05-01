@@ -6,23 +6,21 @@
 }
 
 footer {
-  background: #ffffff;
+  background: #f6f8f9;
   font-size: 10px bold;
   margin-top: 10px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  text-align: center;
 }
 
 footer a {
   color: black;
   font-size: 20px;
   padding: 10px;
-  border-right: 1px solid #ffffff;
+  border-right: 1px solid #fffffe;
   transition: all 0.5s ease;
 }
 
 footer a:first-child {
-  border-left: 1px solid #ffffff;
+  border-left: 1px solid #fefffe;
 }
 
 footer a:hover {
