@@ -28,6 +28,9 @@ footer a:hover {
   color: rgb(255, 255, 255);
 }
 
-.container-fluid {
+body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  border: 5px solid;
+  border-radius: 5px;
 }/*# sourceMappingURL=cat.css.map */

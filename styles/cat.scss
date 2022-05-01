@@ -33,7 +33,12 @@ footer {
   }
 //  NAV BAR
 
-.container-fluid{
+body{
   font-family: $font-family;
+  color: $color;
+  border: $border;
+  border-radius: $border-radius;
+  
 }
+
 
