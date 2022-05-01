@@ -1,11 +1,29 @@
 $border:5px solid;
 $color: black;
 $border-radius: 10px;
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 .img-fluid{
     border: $border;
     color: $color;
     border-radius: $border-radius;
-
 }
-
+footer {
+    background: #f6f8f9;
+    font-size: 10px bold;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    text-align: center;
+    border:$border;
+  }
+  footer a {
+    color:$color;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #70726F;
+    transition: all .5s ease;
+  }
+  footer a:first-child {
+    border-left: 1px solid #70726F;
+  }
+  footer a:hover {
+    color: rgb(255, 255, 255);
+  }
 
