@@ -1,14 +1,15 @@
-$border:5px solid;
 $color: black;
+$border:5px solid;
 $border-radius: 10px;
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
 
 
 .img-fluid{
-    border: $border;
-    color: $color;
-    border-radius: $border-radius;
+  color: $color;
+  border: $border;
+  border-radius: $border-radius;
+ 
 }
 footer {
     background: #f6f8f9;
