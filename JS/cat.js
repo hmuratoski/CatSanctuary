@@ -1,11 +1,8 @@
-let h=document.getElementById("test");
-
-h.style.color("yellow");
+let h=document.getElementById("headertest");
 
 
 
-
-
+h.classList.toggle("shading");
 
 
 
