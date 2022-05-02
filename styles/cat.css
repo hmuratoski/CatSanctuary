@@ -47,4 +47,17 @@ main {
 * {
   font-size: 1rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+[class^=col-] {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+  border: 5px solid;
+  border-radius: 5px;
+}
+
+.card-body {
+  border: 5px solid;
+  border-radius: 5px;
 }/*# sourceMappingURL=cat.css.map */
