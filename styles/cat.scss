@@ -34,11 +34,23 @@ footer {
 //  NAV BAR
 
 body{
-  font-family: $font-family;
+ font-family: $font-family;
   color: $color;
   border: $border;
-  border-radius: $border-radius;
+  border-radius: $border-radius; 
   
+
+} 
+//RESPONSIVE TEXT
+html {
+  font-size: calc(60% + 1.5vmin);
 }
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+* {
+  font-size: 1rem;
+  font-family: $font-family;
 
-
+}
