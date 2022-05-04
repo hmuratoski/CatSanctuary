@@ -64,6 +64,15 @@ main {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.card-title {
+  border: 5px solid;
+  border-radius: 5px;
+}
+.card-title:hover {
+  font-size: 40px;
+  box-shadow: inset 1px 1px 1px 1px rgb(3, 3, 3);
+}
+
 .shading {
   color: black;
   border: 5px solid;
@@ -76,4 +85,8 @@ main {
   border-radius: 5px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 20px;
+}
+
+h1:hover {
+  text-shadow: 10px 10px 10px #0A0A0A;
 }/*# sourceMappingURL=cat.css.map */
