@@ -74,9 +74,9 @@ main {
 }
 
 .shading {
-  color: black;
+  color: #525255;
   border: 5px solid;
-  border-radius: 5px;
+  border-radius: 1cm;
 }
 
 #jumbo {
@@ -89,4 +89,12 @@ main {
 
 h1:hover {
   text-shadow: 10px 10px 10px #0A0A0A;
+}
+
+.important {
+  background-color: #000000;
+  font-size: 50px;
+  text-shadow: 2px 2px 2px #FFFFFF;
+  border-color: #f0f016;
+  text-align: center;
 }/*# sourceMappingURL=cat.css.map */
