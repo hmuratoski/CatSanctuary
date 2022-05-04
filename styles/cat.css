@@ -55,15 +55,29 @@ main {
   color: black;
   border: 5px solid;
   border-radius: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .card-body {
   border: 5px solid;
   border-radius: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .shading {
   color: black;
   border: 5px solid;
   border-radius: 5px;
+}
+
+#jumbo {
+  color: black;
+  border: 5px solid;
+  border-radius: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 20px;
+}
+
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }/*# sourceMappingURL=cat.css.map */

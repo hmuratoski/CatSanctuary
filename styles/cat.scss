@@ -7,7 +7,6 @@ $margin-top: 20px;
 $margin-bottom:20px;
 
 
-
 .img-fluid{
   color: $color;
   border: $border;
@@ -62,11 +61,16 @@ main {
    color: $color;
   border: $border;
   border-radius: $border-radius;
+  font-family: $font-family;
+
+
   
   }  
   .card-body{
   border: $border;
   border-radius: $border-radius;
+  font-family: $font-family;
+
 }  
   .shading{
     color: $color;
@@ -74,5 +78,15 @@ main {
     border-radius: $border-radius;
     
 }  
+#jumbo{
+  color: $color;
+  border: $border;
+  border-radius: $border-radius;
+  font-family: $font-family;
+  margin-top: $margin-top;
 
+}
+h1{
+  font-family: $font-family;
 
+}
