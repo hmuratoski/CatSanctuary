@@ -1,0 +1,23 @@
+
+
+.header-content {
+    text-align: center;
+}
+.cats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.random_cats {
+    width: 50%;
+    border-radius: 15px;
+    border: 10px double rgb(16, 13, 13);
+}
+#jumbo {
+    color: black;
+    border: 5px solid;
+    border-radius: 5px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+  }
