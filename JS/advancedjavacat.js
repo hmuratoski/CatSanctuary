@@ -1,8 +1,8 @@
-let header1=document.getElementById("cardadvanced2");
+let header3=document.getElementById("cardadvanced2");
 let header2=document.getElementById("cardadvanced1");
 
 
-header1.classList.toggle("shading");
+header3.classList.toggle("shading");
 header2.classList.toggle("shading");
 
 
@@ -15,13 +15,7 @@ function ChangeOptions(){
 header.classList.toggle("important");
 }
 
-fetch('https://cataas.com/cat')
-    .then(
-        data => {
-    document.getElementById('print-here').innerHTML += "<img src=\"" + data.image + "\"/>";
-    document.getElementById('print-here').innerHTML += '<img src="' + data.image + '">';
-        }
-    );
+
 
 
 
